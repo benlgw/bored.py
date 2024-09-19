@@ -1,5 +1,5 @@
 # bored.py
-bored.py is a Python module that generates a formatted board or table from a 2D array, displaying row numbers and column letters. It is designed to dynamically adjust to an unlimited number of rows, while supporting up to 26 columns.
+bored.py is a Python module that generates a formatted board/table from a 2D array, displaying row numbers and column letters. It is designed to dynamically adjust to an unlimited number of rows, while supporting up to 26 columns.
 
 This module is specifically designed to facilitate the development of terminal-based board games. As a result, its functionality is not guaranteed when used in GUI-based board games.
 ## Usage/Examples

@@ -2,7 +2,6 @@ import string
 
 def make_board(board):
     format_board(board)
-    #print('  ┼', '───┼', sep='')
     for row_number, row in enumerate(board):
         print('  ┼', end='')
         for column_number, column in enumerate(row):

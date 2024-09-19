@@ -4,19 +4,19 @@ bored.py is a Python module that generates a formatted board or table from a 2D 
 This module is specifically designed to facilitate the development of terminal-based board games. As a result, its functionality is not guaranteed when used in GUI-based board games.
 ## Usage/Examples
 To use bored.py in your program, ensure that the file is located within the program's directory and that the module is properly imported:
-```python3
+```python
 import bored.py
 ```
 Next, provide the program with the board argument, which should be a 2D array of strings:
-```python3
-2D_array = [
+```python
+list = [
         ['1','2','3'],
         ['1','2','3'],
         ['1','2','3']
 ]
 ```
 Finally, you can run the module with the following command, ensuring that you provide the 'board' keyword argument:
-```python3
-bored.makeboard(board=2D_array)
+```python
+bored.makeboard(board=list)
 ```
 

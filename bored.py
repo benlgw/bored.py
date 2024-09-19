@@ -23,7 +23,3 @@ def format_board(board):
     for row_number, row in enumerate(board):
         for column_number, column in enumerate(row):
             board[row_number][column_number] = f' {column} │'
-
-if __name__ == '__main__':
-    board = [['1','2','3','4','5'],['1','2','3','4','5'],['1','2','3','4','5']]
-    make_board(board)
